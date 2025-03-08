@@ -1,0 +1,2 @@
+export const API_URL = "http://localhost:4007";
+// export const API_URL = "https://backend-nodejs-swiggy-svfp.onrender.com/"
