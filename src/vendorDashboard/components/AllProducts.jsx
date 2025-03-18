@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { API_URL } from './../helpers/ApiPath'
+import React,{useState, useEffect} from 'react'
+import { API_URL } from './../helpers/ApiPath';
 
 const AllProducts = () => {
     const [products, setProducts]= useState([]);
@@ -37,7 +37,9 @@ const AllProducts = () => {
                     alert('Failed to delete product')
                 }
     }
-return (
+
+    
+  return (
     <div className='productSection'>
         {!products ? (
             <p>No products added</p>
